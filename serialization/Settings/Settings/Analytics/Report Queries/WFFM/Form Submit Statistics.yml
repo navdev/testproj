@@ -1,0 +1,88 @@
+﻿---
+ID: "f5593827-817c-425d-ac6c-ecbf1e7c14b3"
+Parent: "3f7d673a-6ec3-4626-8da7-c090a6a0a6ee"
+Template: "a90f48c4-4d4f-41d7-8497-070a9a50304e"
+Path: /sitecore/system/Settings/Analytics/Report Queries/WFFM/Form Submit Statistics
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/form_green.png
+- ID: "72b1c86f-ae19-4534-abcf-0692378d41cf"
+  Hint: Data Source
+  Value: reporting
+- ID: "a61cc636-3272-4fb6-bcf9-762940047a78"
+  Hint: Query
+  Value: |
+    SELECT df.Dropouts, df.Failures, df.Submits, df.Success, dv.Visits FROM 
+    (SELECT [dbo].[Fact_FormStatisticsByContact].[FormId] AS FormId,  
+    SUM([dbo].[Fact_FormStatisticsByContact].[Submits]) AS Submits, SUM([dbo].[Fact_FormStatisticsByContact].[Failures]) AS Failures, 
+    SUM([dbo].[Fact_FormStatisticsByContact].[Dropouts]) AS Dropouts, SUM([dbo].[Fact_FormStatisticsByContact].[Success]) AS Success 
+    FROM [dbo].[Fact_FormStatisticsByContact] WHERE [dbo].[Fact_FormStatisticsByContact].[FormId] = @FormId 
+    group by [dbo].[Fact_FormStatisticsByContact].[FormId]) df INNER JOIN
+    
+    (SELECT Count(distinct [dbo].[Fact_FormEvents].[InteractionId]) AS Visits,
+    [dbo].[Fact_FormEvents].[FormId] AS FormId   
+      FROM [dbo].[Fact_FormEvents]
+      WHERE FormId = @FormId
+      GROUP BY [dbo].[Fact_FormEvents].[FormId]  ) dv ON df.FormId = dv.FormId
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Statistik over formularafsendelse
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115022:635494890226966673Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formulareinreichung Statistik
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115225:635494891450649029Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Form Submit Statistics
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110315T113057
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォームの送信の統計情報
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115354:635494892341358091Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

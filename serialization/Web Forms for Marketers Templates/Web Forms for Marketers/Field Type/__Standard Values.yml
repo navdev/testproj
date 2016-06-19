@@ -1,0 +1,22 @@
+﻿---
+ID: "c54337e5-5ec5-4980-9def-16512cd1db3b"
+Parent: "ecf6562f-91e7-4d79-b416-0db3c2dbf67b"
+Template: "ecf6562f-91e7-4d79-b416-0db3c2dbf67b"
+Path: /sitecore/templates/Web Forms for Marketers/Field Type/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{AD0D7DA3-E540-4B50-8E12-B1E309BADF57}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090730T132316
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous

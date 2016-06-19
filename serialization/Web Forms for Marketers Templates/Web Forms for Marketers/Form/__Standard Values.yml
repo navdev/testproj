@@ -1,0 +1,210 @@
+﻿---
+ID: "f296f054-68a6-4a0a-9119-894810837dff"
+Parent: "ffb1da32-2764-47db-83b0-95b843546a7e"
+Template: "ffb1da32-2764-47db-83b0-95b843546a7e"
+Path: /sitecore/templates/Web Forms for Marketers/Form/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{CF47DBAE-6E22-465A-B9B5-3EB6BCF9ECBF}"
+- ID: "1eb9307a-76ba-4377-b355-e918492be61f"
+  Hint: Form Type
+  Value: "{9B41AAEC-93DB-451F-AD33-630738A4EAFC}"
+- ID: "3e2bbfc4-5668-47d2-a4fd-67773d155112"
+  Hint: Is Ajax Mvc Form
+  Type: Checkbox
+  Value: 1
+- ID: "5b891b54-4fce-489e-a7e6-841d92e9859a"
+  Hint: Save Form Data To Storage
+  Type: Checkbox
+  Value: 1
+- ID: "636c26e6-df1c-4cc4-8f65-1bb1df422154"
+  Hint: Submit Button position
+  Value: "{04DE0AA1-51D3-4455-B71E-DEC68D171956}"
+- ID: "66ff6dfb-5c2a-4e24-9f89-f7dffd0c1093"
+  Hint: Submit Button type
+  Value: "{AAE72D6E-1A8B-4D81-B961-C1CABE37B6D7}"
+- ID: "6ce71d0b-99ad-43de-b669-cadada362ba0"
+  Hint: Form Alignment
+  Value: "{A2EDA278-A892-4E7C-91E6-DB6C9915C659}"
+- ID: "6ee0e3cc-de5b-4295-8812-e433ea4d5277"
+  Hint: Left Column Style
+  Value: "col-md-2 col-xs-2 col-lg-2 col-sm-2"
+- ID: "87b37b02-ba9e-4464-ab4e-50737bb1d06e"
+  Hint: User Profile
+  Value: "{38F813E8-8787-4CE5-B13F-6D0C554E7927}"
+- ID: "9bdf1f5b-b99d-47e5-bfd9-935373c97c0d"
+  Hint: Right Column Style
+  Value: "col-md-10 col-xs-10 col-lg-10 col-sm-10"
+- ID: "a7f779b9-5fcf-45cc-866b-7c973f5c4fac"
+  Hint: Save Actions
+  Value: |
+    <?xml version="1.0" encoding="utf-16"?>
+    <li xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <g id="{E5EABB1F-40BC-45BB-8D87-3B6C239B521B}" displayName="Actions" onclick="javascript:return scForm.postEvent(this,event,'forms:addaction')" />
+    </li>
+- ID: "af08c32b-f101-44a4-baae-677383e8eb02"
+  Hint: Check Actions
+  Value: "<?xml version=\"1.0\" encoding=\"utf-16\"?><li xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">  <g id=\"{10FE9225-5E6C-4896-9CD2-880D6D48C4CC}\" displayName=\"Check Actions\">    <li id=\"{2D5B5061-747A-4477-BD41-E746EAFEB231}\" unicid=\"89F18F7C96F4469A9470057CE421A115\">     <parameters></parameters>    </li>  </g></li>"
+- ID: "b0a67b2a-8b07-4e0b-8809-69f751709806"
+  Hint: __Tracking
+  Type: Tracking
+  Value: |
+    <tracking>
+      <event
+        name="Field Completed"
+        id="{F0113A93-570A-4F69-8C7C-BA08037D1E34}" />
+      <event
+        name="Field Not Completed"
+        id="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" />
+      <event
+        name="Field Out of Boundary"
+        id="{F3D7B20C-675C-4707-84CC-5E5B4481B0EE}" />
+      <event
+        name="Invalid Field Syntax"
+        id="{844BBD40-91F6-42CE-8823-5EA4D089ECA2}" />
+    </tracking>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "d755de87-9c62-4eb3-83dc-2293784a3a3f"
+  Hint: Success Mode
+  Value: "{3B8369A0-CC1A-4E9A-A3DB-7B086379C53B}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}"
+        l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}">
+        <r
+          id="{86F838F5-7E87-45BB-876F-C021324AC8B0}"
+          par="TitleField=Title&amp;BodyField=Introduction&amp;DateField=__Updated"
+          uid="{565CD73D-AD95-4F2C-B78D-EC3D565728EB}" />
+      </d>
+    </r>
+- ID: "fbfe1fee-eff2-4515-b793-5a8b56e92223"
+  Hint: Submit Button size
+  Value: "{EBE1BA7F-A272-421E-8AAF-2DDBF595990E}"
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
+      Hint: Introduction
+      Value: <p>Den tekst, du indtaster her, vises lige under formularens navn. Det kan for eksempel være en beskrivelse, nogle anvisninger eller andre oplysninger.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T103919Z
+    - ID: "4e2dc894-59a2-49bb-a49c-562f611169a2"
+      Hint: Success Message
+      Value: Tak, fordi du udfyldte formularen.
+    - ID: "53aff40d-e61f-43dc-96d6-a5c7f4882e20"
+      Hint: Save Action Failed Message
+      Value: Der opstod et teknisk problem, da vi behandlede din anmodning. Dine data er muligvis ikke blevet gemt korrekt.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
+      Hint: Title
+      Value: Unavngiven formular
+    - ID: "95968a5a-db52-4f50-b471-c6c7da81f7e8"
+      Hint: Footer
+      Value: <p>Den tekst, du indtaster her, vises i slutningen af formularen.</p>
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: Send
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
+      Hint: Introduction
+      Value: <p>Der hier eingegebene Text wird direkt unter dem Formularnamen angezeigt. Dies können zum Beispiel Beschreibungen, Instruktionen oder andere Informationen sein.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150330T163239:635633299592536005"
+    - ID: "4e2dc894-59a2-49bb-a49c-562f611169a2"
+      Hint: Success Message
+      Value: Danke, dass Sie das Formular ausgefüllt haben.
+    - ID: "53aff40d-e61f-43dc-96d6-a5c7f4882e20"
+      Hint: Save Action Failed Message
+      Value: Während der Bearbeitung Ihrer Anfrage ist es zu technischen Schwierigkeiten gekommen. Ihre Daten wurden unter Umständen nicht korrekt gespeichert.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
+      Hint: Title
+      Value: Formular ohne Titel
+    - ID: "95968a5a-db52-4f50-b471-c6c7da81f7e8"
+      Hint: Footer
+      Value: <p>Der hier eingegebene Text wird am Ende des Formulars angezeigt.</p>
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: Absenden
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
+      Hint: Introduction
+      Value: |
+        
+        		<p>The text you enter here is displayed directly below the form name. This could be, for example, a description, some instructions, or any other information.</p>
+        
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T073500Z
+    - ID: "4e2dc894-59a2-49bb-a49c-562f611169a2"
+      Hint: Success Message
+      Value: Thank you for filling in the form.
+    - ID: "53aff40d-e61f-43dc-96d6-a5c7f4882e20"
+      Hint: Save Action Failed Message
+      Value: We experienced a technical difficulty while processing your request. Your data may not have been correctly saved.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
+      Hint: Title
+      Value: Untitled Form
+    - ID: "95968a5a-db52-4f50-b471-c6c7da81f7e8"
+      Hint: Footer
+      Value: |
+        
+        		<p>The text you enter here is displayed at the end of the form.</p>
+        
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: Submit
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f2414bd-a95d-419c-a238-a6637a3fab76"
+      Hint: Introduction
+      Value: <p>ここで入力したテキストは、フォーム名の直後に表示されます。これはたとえば、説明、指示、またはその他の情報などです。</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150330T163255:635633299756246005"
+    - ID: "4e2dc894-59a2-49bb-a49c-562f611169a2"
+      Hint: Success Message
+      Value: フォームにご記入いただき、ありがとうございます。
+    - ID: "53aff40d-e61f-43dc-96d6-a5c7f4882e20"
+      Hint: Save Action Failed Message
+      Value: 要求の処理中に技術上の問題が発生しました。データが正常に保存されていない可能性があります。
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "86d6a401-5a20-49c9-a2f8-0312398ee946"
+      Hint: Title
+      Value: タイトルのないフォーム
+    - ID: "95968a5a-db52-4f50-b471-c6c7da81f7e8"
+      Hint: Footer
+      Value: <p>ここで入力したテキストは、このフォームの末尾に表示されます。</p>
+    - ID: "b71296b6-32b9-4703-a8cb-fb7437271103"
+      Hint: Name
+      Value: 送信

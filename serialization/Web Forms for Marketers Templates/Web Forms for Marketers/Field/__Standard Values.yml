@@ -1,0 +1,22 @@
+﻿---
+ID: "a0e54659-9a84-4518-99dc-de941927134c"
+Parent: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
+Template: "c9e1bf85-800a-4247-a3a3-c3f5dfbfd6aa"
+Path: /sitecore/templates/Web Forms for Marketers/Field/__Standard Values
+DB: master
+SharedFields:
+- ID: "158836b1-df1a-4b6d-93c1-75e27207f822"
+  Hint: Save
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150703T092622Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

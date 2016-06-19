@@ -1,0 +1,101 @@
+﻿---
+ID: "7144c4c9-e56a-4529-b3c1-a1dedc454ab8"
+Parent: "633273c1-02a5-4ebc-9b82-bd1a7c684fea"
+Template: "059cfbdf-49fc-4f14-a4e5-b63e1e1afb1e"
+Path: /sitecore/system/Settings/Analytics/Page Events/Form Check Action Error
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/flash_edit.png
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+- ID: "ac6ba888-4213-43bd-b787-d8da2b6b881f"
+  Hint: Name
+  Value: Form Check Action Error
+- ID: "bd5d2a52-027f-4cc8-9606-c5ce6cbbf437"
+  Hint: IsFailure
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Fejl ved formularcheckhandling
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T103722Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "797466f5-763b-4299-b6ad-e4192bf21222"
+      Hint: Description
+      Value: Dette bør udøses, når et check af en handling mislykkes.
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formular Aktion überprüfen Fehler
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T104317Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "797466f5-763b-4299-b6ad-e4192bf21222"
+      Hint: Description
+      Value: Dies sollte ausgelöst werden, wenn die Aktion  überprüfen fehlschlägt.
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Form Check Action Error
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090610T181700
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "797466f5-763b-4299-b6ad-e4192bf21222"
+      Hint: Description
+      Value: This should be triggered when a Check Action fails.
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォーム チェック アクション エラー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T104737Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "797466f5-763b-4299-b6ad-e4192bf21222"
+      Hint: Description
+      Value: チェック アクションが失敗した場合にトリガーされます

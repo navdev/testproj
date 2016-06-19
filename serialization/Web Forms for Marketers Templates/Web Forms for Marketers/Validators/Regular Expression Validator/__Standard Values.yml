@@ -1,0 +1,63 @@
+﻿---
+ID: "36271873-4f51-47b7-89ff-56c335fbe545"
+Parent: "3474d104-0e12-430a-bf3b-3a5442efa6a8"
+Template: "3474d104-0e12-430a-bf3b-3a5442efa6a8"
+Path: /sitecore/templates/Web Forms for Marketers/Validators/Regular Expression Validator/__Standard Values
+DB: master
+SharedFields:
+- ID: "c64697f6-73fc-470b-aa05-11770fa6a813"
+  Hint: Validation Expression
+  Value: ^.*$
+Languages:
+- Language: da
+  Fields:
+  - ID: "7aaa88b1-e696-4956-9215-1faa3ec42607"
+    Hint: Error Message
+    Value: Værdien er ikke gyldig.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T103620Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "7aaa88b1-e696-4956-9215-1faa3ec42607"
+    Hint: Error Message
+    Value: Der Wert ist ungültig.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T104225Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080526T142255
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+- Language: "ja-JP"
+  Fields:
+  - ID: "7aaa88b1-e696-4956-9215-1faa3ec42607"
+    Hint: Error Message
+    Value: 値が無効です。
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T104659Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

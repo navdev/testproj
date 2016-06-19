@@ -1,0 +1,18 @@
+﻿---
+ID: "e1252300-4431-4de3-a798-1b723a8fce90"
+Parent: "d2fac602-b19c-4c6b-9646-c92a7e509f7b"
+Template: "b2613cc1-a748-46a3-a0db-3774574bd339"
+Path: /sitecore/templates/Branches/Testcore/Demo
+DB: master
+BranchID: "f6b0e6f1-2451-4c72-94fd-22d7b93b592a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T165011Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

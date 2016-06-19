@@ -1,0 +1,79 @@
+﻿---
+ID: "1733ba0a-8c5a-4521-881a-3e69e23eceff"
+Parent: "3f7d673a-6ec3-4626-8da7-c090a6a0a6ee"
+Template: "a90f48c4-4d4f-41d7-8497-070a9a50304e"
+Path: /sitecore/system/Settings/Analytics/Report Queries/WFFM/Form Fields Statistics
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/form_green.png
+- ID: "72b1c86f-ae19-4534-abcf-0692378d41cf"
+  Hint: Data Source
+  Value: reporting
+- ID: "a61cc636-3272-4fb6-bcf9-762940047a78"
+  Hint: Query
+  Value: |
+    SELECT [FieldId],[dbo].[FormFieldValues].[FieldValueId],[dbo].[FormFieldValues].[FieldValue], [dbo].[Fact_FormSummary].[FieldName], [Count]
+      FROM [dbo].[Fact_FormSummary], [dbo].[FormFieldValues]
+      WHERE [dbo].[Fact_FormSummary].FieldValueId = [dbo].[FormFieldValues].FieldValueId AND FormId = @FormId
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 275
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Antal af afsendte formularer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T114938:635494889780442025Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formularabsendung Erfolgszählung
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115132:635494890926856655Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Form Fields Statistics
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110315T112033
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォームが正常に送信された数
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115310:635494891900444004Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

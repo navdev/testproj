@@ -1,0 +1,73 @@
+﻿---
+ID: "9b971627-988a-48ab-a344-beaf081203dc"
+Parent: "3d51c8a9-246f-4ea4-a244-6580bdf73024"
+Template: "3d51c8a9-246f-4ea4-a244-6580bdf73024"
+Path: /sitecore/templates/Web Forms for Marketers/Validators/BaseValidator/__Standard Values
+DB: master
+SharedFields:
+- ID: "2a29bfac-1cd0-4ac9-9053-19be2473200d"
+  Hint: Assembly
+  Value: System.Web.dll
+- ID: "99bc4d08-31d7-4ff9-b33d-c4196294ac30"
+  Hint: Validator Display
+  Value: Dynamic
+- ID: "f062d792-ecde-41eb-811f-9cc68f7b4082"
+  Hint: Class
+  Value: System.Web.UI.WebControls.RegularExpressionValidator
+Languages:
+- Language: da
+  Fields:
+  - ID: "7aaa88b1-e696-4956-9215-1faa3ec42607"
+    Hint: Error Message
+    Value: Værdien er ikke gyldig.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T103801Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "7aaa88b1-e696-4956-9215-1faa3ec42607"
+    Hint: Error Message
+    Value: Der Wert ist ungültig.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T104401Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "7aaa88b1-e696-4956-9215-1faa3ec42607"
+    Hint: Error Message
+    Value: The value is not valid.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T103507
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "7aaa88b1-e696-4956-9215-1faa3ec42607"
+    Hint: Error Message
+    Value: 値が無効です。
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T104800Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

@@ -1,0 +1,50 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+    var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+    rendering.Class = "sc-ViewJobs";
+    rendering.Requires.Script("client", "ViewJobs.js");
+
+    var htmlAttributes = rendering.HtmlAttributes;
+    rendering.GetString("jobitems", "jobitems");
+}
+<div @htmlAttributes>
+    From Speak
+    <span data-bind="text:jobitems"></span>
+    <div>
+        <table class=" sc-table sc-table-header table">
+            <thead>
+                <tr>
+                    <th class="sc-table-head">Name</th>
+                    <th class="sc-table-head">Category</th>
+                    <th class="sc-table-head">Status</th>
+                    <th class="sc-table-head">Queue Time</th>
+                </tr>
+            </thead>
+        </table>
+        <div class="sc-listcontrol-body">
+            <table class="sc-table table">
+                <tbody data-bind="foreach: jobitems">
+                    <tr>
+                        <td class="ventilate">
+                            <span data-bind="text:Name"></span>
+                        </td>
+                        <td class="ventilate">
+                            <span data-bind="text:Category"></span>
+                        </td>
+                        <td class="ventilate">
+                            <strong>
+                                <span data-bind="text:Status,style:{color:'#00000'}"></span>
+                            </strong>
+                        </td>
+                        <td class="ventilate">
+                            <span data-bind="text:QueueTime"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
