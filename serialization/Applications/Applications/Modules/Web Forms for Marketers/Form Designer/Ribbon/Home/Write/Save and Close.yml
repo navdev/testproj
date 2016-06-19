@@ -1,0 +1,97 @@
+﻿---
+ID: "fbebbc02-2aea-40ed-ae22-304884372860"
+Parent: "3bf70229-4b1e-4537-ad18-2ec3c007e042"
+Template: "1db34c92-03b0-4475-9a39-da14e4d9d8fc"
+Path: /sitecore/content/Applications/Modules/Web Forms for Marketers/Form Designer/Ribbon/Home/Write/Save and Close
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 275
+- ID: "d47ed548-84d5-4622-9886-5cc164727507"
+  Hint: Icon
+  Value: Office/32x32/save_and_close.png
+- ID: "dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b"
+  Hint: Click
+  Value: SaveFormStructureAndClose
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Gem og luk
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100127T141216
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: Gem/Luk
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: Gem ændringerne, og luk vinduet.
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Speichern und schließen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115113:635494890734527424Z"
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: Speichern/Schließen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: Speichern und Fenster schließen.
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Save and Close
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T073214Z
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: Save/Close
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: Save Changes and Close the window.
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 保存して閉じる
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093204:634566007246318327"
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: 保存/閉じる
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: 変更を保存してウィンドウを閉じます。

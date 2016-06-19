@@ -1,0 +1,85 @@
+﻿---
+ID: "ae248c7f-cf4d-434c-a7b5-df2a05f666ed"
+Parent: "62809088-89af-46b3-aad8-6174f2c75702"
+Template: "bdb6fa46-2f76-4bde-8138-52b56c2fc47e"
+Path: /sitecore/content/Applications/Modules/Web Forms for Marketers/Select Form
+DB: core
+SharedFields:
+- ID: "20f47b0c-b146-4847-ac4d-0b25983514b3"
+  Hint: Click
+  Value: "forms:dataviewer"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Client Developing|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Users|pe|!*|+item:read|pd|!*|+item:read|"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Vælg formular
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20100127T172907:634002101478750000"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Vælg formular
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formular auswählen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115111:635494890715145486Z"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Formular auswählen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Select Form
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T103226
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Select Form
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォームを選択
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093215:634566007351338327"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: フォームを選択
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

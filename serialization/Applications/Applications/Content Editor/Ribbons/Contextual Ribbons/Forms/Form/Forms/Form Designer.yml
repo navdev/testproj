@@ -1,0 +1,100 @@
+﻿---
+ID: "36acc25d-51ab-4d84-adf1-a462bee60d2b"
+Parent: "f5732b83-9805-419e-81d0-e2d493dbec18"
+Template: "1db34c92-03b0-4475-9a39-da14e4d9d8fc"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Contextual Ribbons/Forms/Form/Forms/Form Designer
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/document.png
+- ID: "d47ed548-84d5-4622-9886-5cc164727507"
+  Hint: Icon
+  Value: Office/32x32/edit_template.png
+- ID: "dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b"
+  Hint: Click
+  Value: "forms:designer"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Client Users|pe|!*|pd|!*|ar|sitecore\Sitecore Client Forms Author|pe|+item:read|pd|+item:read|"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formulardesigner
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100127T180806
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: Formulardesigner
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: Formulardesigner
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formulardesigner
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115107:635494890671681140Z"
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: Formulardesigner
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: Formulardesigner öffnen
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Form Designer
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T072415Z
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: Form Designer
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: Open Form Designer
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォーム デザイナー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093142:634566007027078327"
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: フォーム デザイナー
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a1a31a93-c4a0-4396-b629-67c33001a3cf"
+      Hint: Tooltip
+      Value: フォーム デザイナーを開く

@@ -1,0 +1,27 @@
+﻿---
+ID: "0e7dd2a7-7494-44cd-a6d5-ebc23a3ee1e2"
+Parent: "55a75383-ce0c-48ed-9204-c8e8f0d29985"
+Template: "1db34c92-03b0-4475-9a39-da14e4d9d8fc"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Custom Chunk/Open Test Dialog
+DB: core
+SharedFields:
+- ID: "d47ed548-84d5-4622-9886-5cc164727507"
+  Hint: Icon
+  Value: ApplicationsV2/16x16/window_dialog.png
+- ID: "dbbf9ee3-c30e-4456-a81f-ed8c2e8df91b"
+  Hint: Click
+  Value: "testcore:testaction"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T114327Z
+    - ID: "4df6da21-e745-444c-956e-1d4a96ab8821"
+      Hint: Header
+      Value: Test Dialog
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

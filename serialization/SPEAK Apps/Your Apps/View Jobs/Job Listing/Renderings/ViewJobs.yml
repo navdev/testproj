@@ -1,0 +1,24 @@
+﻿---
+ID: "429d288c-93f3-461c-9257-366c176f4240"
+Parent: "5f8f59bd-62ba-41cd-bac3-8d2470d413c2"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/client/Your Apps/View Jobs/Job Listing/Renderings/ViewJobs
+DB: core
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /sitecore/shell/client/Your Apps/View Jobs/Renderings/ViewJobs.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{FED9A6F5-19B1-48CD-A02F-1416F3D96EC5}"
+- ID: "ef7c5528-7307-4e19-863b-da19eed6a9ed"
+  Hint: Open Properties after Add
+  Value: "-"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160616T081622Z

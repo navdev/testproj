@@ -1,0 +1,82 @@
+﻿---
+ID: "87719e42-9177-4573-98ad-c14678c24ce2"
+Parent: "1dd07232-4fc3-4f03-a565-734a10e49961"
+Template: "ec6d62a5-5d00-4329-8958-8ac1ad100ebb"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Contextual Ribbons/Forms/Form
+DB: core
+SharedFields:
+- ID: "12c1ceb4-f549-472a-97ed-99bff70eb84e"
+  Hint: ID
+  Value: FormStrip
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formular
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20100127T172858:634002101383125000"
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: Formularer
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formular
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115110:635494890704494421Z"
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: Formulare
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Form
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T102355
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: Forms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォーム
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093144:634566007041658327"
+    - ID: "5453dc07-6a17-48ba-8d05-17db90a2e795"
+      Hint: Header
+      Value: フォーム
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

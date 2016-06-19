@@ -1,0 +1,18 @@
+﻿---
+ID: "96e4074f-d624-41f1-a68d-180474333480"
+Parent: "dea5fdf3-a5cc-4382-97f6-2845e122d0bf"
+Template: "88b6af7b-7253-471d-a644-12b81ef8f578"
+Path: /sitecore/client/Your Apps/View Jobs/Job Listing/PageSettings/ListControl Parameters
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160615T184039Z

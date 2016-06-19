@@ -1,0 +1,79 @@
+﻿---
+ID: "534412cb-95cd-4b15-9b87-e5781fa4a5ce"
+Parent: "ea8ac159-deac-4e6e-969f-4e3ac3f18e72"
+Template: "998b965e-6ab8-4568-810f-8101d60d0cc3"
+Path: /sitecore/content/Applications/Modules/Web Forms for Marketers/Form Designer/Menues/Submit Actions/More Actions
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/16x16/component_yellow.png
+- ID: "335c6760-6c0e-4c6c-814c-a53d203f553e"
+  Hint: Icon
+  Value: Applications/32x32/transform2.png
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: <link/>
+- ID: "cab694fc-e37c-44eb-9012-488b775cf638"
+  Hint: Message
+  Value: "forms:addaction"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|a?|*|p*|!*|"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Flere handlinger
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T114907:635494889470391023Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Mehr Handlungen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115107:635494890676591631Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: More Actions
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T103047
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 追加アクション
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115249:635494891690202982Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

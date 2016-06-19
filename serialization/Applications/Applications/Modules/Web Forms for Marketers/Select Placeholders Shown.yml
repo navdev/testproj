@@ -1,0 +1,85 @@
+﻿---
+ID: "5e3b62b9-cbae-4c72-9417-a83f538a4eba"
+Parent: "62809088-89af-46b3-aad8-6174f2c75702"
+Template: "bdb6fa46-2f76-4bde-8138-52b56c2fc47e"
+Path: /sitecore/content/Applications/Modules/Web Forms for Marketers/Select Placeholders Shown
+DB: core
+SharedFields:
+- ID: "20f47b0c-b146-4847-ac4d-0b25983514b3"
+  Hint: Click
+  Value: "forms:selectplaceholders"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Client Developing|pe|+item:read|pd|+item:read|ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Vælg hvilke pladsholdere, som skal vises
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20100127T172907:634002101479375000"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Vælg hvilke pladsholdere, som skal vises
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Angezeigte Platzhalter auswählen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115107:635494890677821754Z"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Angezeigte Platzhalter auswählen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Select Placeholders Shown
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080425T154401
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Select Placeholders Shown
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 表示されているプレースホルダーを選択
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093215:634566007356338327"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: 表示されているプレースホルダーを選択
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

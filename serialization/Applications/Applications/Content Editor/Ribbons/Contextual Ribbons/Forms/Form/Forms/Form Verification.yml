@@ -1,0 +1,100 @@
+﻿---
+ID: "19862dea-0454-4e8e-a955-5d35f155767d"
+Parent: "f5732b83-9805-419e-81d0-e2d493dbec18"
+Template: "9f62ebd5-2280-4a35-be51-a210d831d687"
+Path: /sitecore/content/Applications/Content Editor/Ribbons/Contextual Ribbons/Forms/Form/Forms/Form Verification
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/document.png
+- ID: "4c2dedb4-40fb-4166-8221-c4dd3e914478"
+  Hint: Click
+  Value: "forms:setsubmitactions(mode=check,root={10FE9225-5E6C-4896-9CD2-880D6D48C4CC},system=)"
+- ID: "8e40ab40-8c83-4ff7-9d33-38ed9458de1e"
+  Hint: Icon
+  Value: Office/32x32/check.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formularbekræftelse
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20100127T172858:634002101382500000"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: Åbner redigering af formularverifikationer
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Formularverifikation
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formularüberprüfung
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115106:635494890661340106Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: "Öffnet den Formular-Überprüfungseditor"
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Formularüberprüfung
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Form Verification
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090630T161700Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: Opens Form Verification Editor
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Form Verification
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォームの検証
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093144:634566007040118327"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: フォーム検証エディターを開く
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: フォームの検証

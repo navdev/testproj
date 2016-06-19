@@ -1,0 +1,88 @@
+﻿---
+ID: "264eedeb-dbc0-4a17-9db1-d159c4eb2ed0"
+Parent: "62809088-89af-46b3-aad8-6174f2c75702"
+Template: "bdb6fa46-2f76-4bde-8138-52b56c2fc47e"
+Path: /sitecore/content/Applications/Modules/Web Forms for Marketers/Insert Form Wizard
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/create_template.png
+- ID: "20f47b0c-b146-4847-ac4d-0b25983514b3"
+  Hint: Click
+  Value: "forms:insert"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Client Maintaining|pe|+item:read|pd|+item:read|a?|*|p*|!*|"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Indsæt formular-guide"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20100127T172859:634002101393281250"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Guiden indsæt formular
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formularhilfsassistent einfügen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115106:635494890665120484Z"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Formularhilfsassistent einfügen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Insert Form Wizard
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T103221
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: Insert Form Wizard
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォーム挿入ウィザード
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093147:634566007073688327"
+    - ID: "48323b75-9f6a-4779-ac8b-a01da56b35b3"
+      Hint: Header
+      Value: フォーム挿入ウィザード
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin

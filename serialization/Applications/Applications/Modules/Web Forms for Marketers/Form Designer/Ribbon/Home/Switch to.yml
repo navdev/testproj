@@ -1,0 +1,85 @@
+﻿---
+ID: "443418cb-0220-40b5-920f-841c44cb73b7"
+Parent: "d16dd5dd-335c-433a-b526-498ac30b8f7d"
+Template: "8f3d8f9b-2d76-4ace-803f-35415d2b230a"
+Path: /sitecore/content/Applications/Modules/Web Forms for Marketers/Form Designer/Ribbon/Home/Switch to
+DB: core
+SharedFields:
+- ID: "8bb9a5e3-cae8-49c6-b830-258a51d970c9"
+  Hint: ID
+  Value: ViewChunk
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 575
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Skift til
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100127T172128
+    - ID: "4061c1c7-dc71-4c1d-932d-22fd5a37adac"
+      Hint: Tooltip
+      Value: Switch to
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Skift til
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Wechseln zu
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20141021T115107:635494890674241396Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Wechseln zu
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Switch to
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080418T102859
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: Switch to
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 切り替え
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20111111T093235:634566007555418327"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "c95d21bd-66c3-444b-a37f-d346cbaf2b55"
+      Hint: Header
+      Value: 切り替え

@@ -1,0 +1,100 @@
+﻿---
+ID: "f53c5936-d9a8-4704-8859-6ad97d409541"
+Parent: "db662edf-5965-4848-ad14-ba6bf0d55d1e"
+Template: "02404208-46d4-49bf-988b-eb363a52a1c9"
+Path: /sitecore/content/Applications/WebEdit/Custom Experience Buttons/Edit Form
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/pencil.png
+- ID: "1bb289d6-44d7-4fcc-af15-db32b841f957"
+  Hint: Click
+  Value: "forms:edit"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "e8cc41c7-c304-4282-b782-e21ca32d324c"
+  Hint: Icon
+  Value: Office/32x32/pencil.png
+Languages:
+- Language: da
+  Fields:
+  - ID: "371e0d96-4f00-4b80-ad14-6284e00493ba"
+    Hint: Tooltip
+    Value: Redigeringsformular i Formulardesigner
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Rediger formular
+  - ID: "c523aba8-d1a1-4dcb-aeee-52635a4ab2ae"
+    Hint: Header
+    Value: Slet
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20110920T144547:634521267473103006"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+- Language: "de-DE"
+  Fields:
+  - ID: "371e0d96-4f00-4b80-ad14-6284e00493ba"
+    Hint: Tooltip
+    Value: Formular im Formulardesigner bearbeiten
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Formular bearbeiten
+  - ID: "c523aba8-d1a1-4dcb-aeee-52635a4ab2ae"
+    Hint: Header
+    Value: Löschen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20110920T145023:634521270236143006"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+- Language: en
+  Fields:
+  - ID: "371e0d96-4f00-4b80-ad14-6284e00493ba"
+    Hint: Tooltip
+    Value: Edit form in Form Designer
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Edit Form
+  - ID: "c523aba8-d1a1-4dcb-aeee-52635a4ab2ae"
+    Hint: Header
+    Value: Delete
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100226T134011Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "371e0d96-4f00-4b80-ad14-6284e00493ba"
+    Hint: Tooltip
+    Value: フォーム デザイナーでフォームを編集する
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: フォームの編集
+  - ID: "c523aba8-d1a1-4dcb-aeee-52635a4ab2ae"
+    Hint: Header
+    Value: 削除
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20110920T144830:634521269100463006"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous

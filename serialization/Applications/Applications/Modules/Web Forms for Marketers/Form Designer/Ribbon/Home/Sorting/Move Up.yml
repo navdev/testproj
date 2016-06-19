@@ -1,0 +1,106 @@
+﻿---
+ID: "53db7b37-8a72-4fff-8247-5d293102be01"
+Parent: "dce81121-bfe1-4be1-b6c0-762e9831aede"
+Template: "9f62ebd5-2280-4a35-be51-a210d831d687"
+Path: /sitecore/content/Applications/Modules/Web Forms for Marketers/Form Designer/Ribbon/Home/Sorting/Move Up
+DB: core
+SharedFields:
+- ID: "0cebd9e7-1008-4efa-b87c-2445364e286b"
+  Hint: KeyCode
+  Value: sca38
+- ID: "4c2dedb4-40fb-4166-8221-c4dd3e914478"
+  Hint: Click
+  Value: "javascript:window.top.Sitecore.FormBuilder.moveUp();"
+- ID: "8e40ab40-8c83-4ff7-9d33-38ed9458de1e"
+  Hint: Icon
+  Value: Office/32x32/navigate_up.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: "ar|sitecore\Sitecore Client Authoring|pe|+item:read|pd|+item:read|a?|__Everyone|p*|!*|"
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Flyt op
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100127T134359
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: Flyt elementet et trin op i indholdstræet.
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Op
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Nach oben
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20110920T145023:634521270232803006"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: Verschieben Sie das Feld oder wählen Sie die nächste Stufe.
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Hoch
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Move Up
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080603T110819Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: Move the field or section one step up.
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: Up
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20060210T081111Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 上へ移動
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20110920T144829:634521269096553006"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: sitecore\Anonymous
+    - ID: "a47cd065-c361-4332-b22b-7e2148de06f4"
+      Hint: Tooltip
+      Value: フィールドまたはセクションを 1 つ上の段に移動します。
+    - ID: "c184f18b-b452-44d6-8376-facd6cef8a42"
+      Hint: Header
+      Value: 上へ移動
